@@ -1,6 +1,6 @@
 FROM alpine as crawler
 
-ENV WAVES_VERSION 0.10.3
+ENV WAVES_VERSION 0.13.3
 
 RUN apk add --no-cache --update ca-certificates curl && \
     update-ca-certificates && \
